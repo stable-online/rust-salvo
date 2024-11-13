@@ -2,6 +2,7 @@ mod utils;
 mod router;
 mod model;
 mod controller;
+mod service;
 
 use salvo::prelude::*;
 
