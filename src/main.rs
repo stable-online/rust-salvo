@@ -4,6 +4,7 @@ mod model;
 mod controller;
 mod service;
 mod mapper;
+mod entity;
 
 use salvo::prelude::*;
 
