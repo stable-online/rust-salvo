@@ -1,4 +1,5 @@
 pub mod test;
+pub mod activity;
 
 use once_cell::sync::Lazy;
 use rbatis::RBatis;
