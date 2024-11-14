@@ -239,31 +239,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "bill"
-version = "0.1.0"
-dependencies = [
- "byte-unit",
- "captcha",
- "futures-util",
- "jsonwebtoken 8.3.0",
- "md5",
- "once_cell",
- "rbatis",
- "rbdc-mysql",
- "rbs",
- "redis",
- "salvo",
- "serde",
- "serde_json",
- "sysinfo",
- "tokio",
- "tokio-stream",
- "tracing",
- "tracing-subscriber",
- "uuid",
-]
-
-[[package]]
 name = "bincode"
 version = "1.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2551,6 +2526,31 @@ name = "rust-format"
 version = "0.3.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "60e7c00b6c3bf5e38a880eec01d7e829d12ca682079f8238a464def3c4b31627"
+
+[[package]]
+name = "rust-salvo-compo"
+version = "0.1.0"
+dependencies = [
+ "byte-unit",
+ "captcha",
+ "futures-util",
+ "jsonwebtoken 8.3.0",
+ "md5",
+ "once_cell",
+ "rbatis",
+ "rbdc-mysql",
+ "rbs",
+ "redis",
+ "salvo",
+ "serde",
+ "serde_json",
+ "sysinfo",
+ "tokio",
+ "tokio-stream",
+ "tracing",
+ "tracing-subscriber",
+ "uuid",
+]
 
 [[package]]
 name = "rust_decimal"
